@@ -1,18 +1,29 @@
 {
   "name": "xComponentWidget",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/phuchieuct93/xComponentWidget",
   "authors": [
     "phuchieuct <phuchieuct93@gmail.com>"
   ],
-  "description": "no",
+  "description": "description",
   "main": "./ObjectDisplayList/ObjectDisplayList.js",
   "moduleType": [
-    "node"
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
   ],
   "keywords": [
-    "T2i"
+    "xComponentWidget"
   ],
   "license": "MIT",
-  "private": true
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
