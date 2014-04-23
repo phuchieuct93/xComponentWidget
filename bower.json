@@ -1,7 +1,7 @@
 {
   "name": "xComponentWidgets",
   "version": "1.2.15",
-  "main": "./ObjectDisplayList/ObjectDisplayList.js",
+  "main": "./xComponentWidgets.js",
   "dependencies": {
   }
 }
