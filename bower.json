@@ -1,5 +1,5 @@
 {
-  "name": "angular",
+  "name": "xComponentWidgets",
   "version": "1.2.15",
   "main": "./ObjectDisplayList/ObjectDisplayList.js",
   "dependencies": {
