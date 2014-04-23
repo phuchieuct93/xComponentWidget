@@ -5,8 +5,14 @@
   "authors": [
     "phuchieuct <phuchieuct93@gmail.com>"
   ],
+  "description": "no",
+  "main": "./ObjectDisplayList/ObjectDisplayList.js",
   "moduleType": [
     "node"
   ],
-  "license": "MIT"
+  "keywords": [
+    "T2i"
+  ],
+  "license": "MIT",
+  "private": true
 }
