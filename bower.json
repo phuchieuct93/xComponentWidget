@@ -1,18 +1,7 @@
 {
-  "name": "xComponentWidget",
-  "version": "0.0.0",
-  "homepage": "https://github.com/phuchieuct93/xComponentWidget",
-  "authors": [
-    "phuchieuct <phuchieuct93@gmail.com>"
-  ],
-  "description": "no",
+  "name": "angular",
+  "version": "1.2.15",
   "main": "./ObjectDisplayList/ObjectDisplayList.js",
-  "moduleType": [
-    "node"
-  ],
-  "keywords": [
-    "T2i"
-  ],
-  "license": "MIT",
-  "private": false
+  "dependencies": {
+  }
 }
