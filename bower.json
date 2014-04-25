@@ -1,12 +1,19 @@
 {
   "name": "xComponentWidget",
-  "version": "1.0.0",
+  "version": "1.0.0.5",
   "homepage": "https://github.com/phuchieuct93/xComponentWidget",
   "authors": [
     "phuchieuct <phuchieuct93@gmail.com>"
   ],
   "description": "description",
-  "main": "./ObjectDisplayList/ObjectDisplayList.js",
+  "main": [
+	"./ObjectDisplayList/ObjectDisplayList.js",
+	"./SearchField/SearchField.js",
+     "./SearchField/labels.js",
+     "./ObjectDisplayList/labels.js",
+	"./xComponentWidgets.js"
+
+	],
   "moduleType": [
     "amd",
     "es6",
