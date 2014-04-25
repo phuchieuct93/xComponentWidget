@@ -8,9 +8,13 @@
   "description": "description",
   "main": [
 	"./ObjectDisplayList/ObjectDisplayList.js",
-	"./SearchField/SearchField.js",
-     "./SearchField/labels.js",
-     "./ObjectDisplayList/labels.js",
+	"./ObjectDisplayList/ObjectDisplayList.css",
+	"./ObjectDisplayList/ObjectDisplayList-label.js
+
+
+    "./SearchField/SearchField.js",
+	"./SearchField/SearchField.css",
+	"./SearchField/SearchField-label.js",
 	"./xComponentWidgets.js"
 
 	],
