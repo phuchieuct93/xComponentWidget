@@ -9,10 +9,8 @@
   "main": [
 	"./ObjectDisplayList/ObjectDisplayList.js",
 	"./ObjectDisplayList/ObjectDisplayList.css",
-	"./ObjectDisplayList/ObjectDisplayList-label.js
-
-
-    "./SearchField/SearchField.js",
+	"./ObjectDisplayList/ObjectDisplayList-label.js",
+	"./SearchField/SearchField.js",
 	"./SearchField/SearchField.css",
 	"./SearchField/SearchField-label.js",
 	"./xComponentWidgets.js"
