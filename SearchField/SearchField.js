@@ -1,4 +1,4 @@
-xComponentWidgets.directive('searchfield', function() {
+xComponentWidgets.directive('searchfield', function($filter) {
         return {
             restrict:'AE',
             replace:true,
@@ -13,6 +13,7 @@ xComponentWidgets.directive('searchfield', function() {
                 scope.fireOnChange= function() {
                     scope.$emit("searchfield::change",scope.value);
                 }
+				scope.options.placeholder =$filter(i18n)(searchfieldplaceholder);
             }
         };
     });
