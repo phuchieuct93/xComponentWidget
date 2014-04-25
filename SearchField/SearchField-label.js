@@ -1,18 +1,14 @@
-xComponentWidgets.directive('searchfield', function() {
-        return {
-            restrict:'AE',
-            replace:true,
-            templateUrl:'common/xComponentWidgets/SearchField/SearchField.html',
+ _locales.searchfield = {
+        'vi': {
+
+            'searchfieldplaceholder': 'searchfieldplaceholder hieu'
 
 
-            scope: {
-                value:'@',
-                options: '='
-            },
-            link : function(scope,iElement,iAttrs) {
-                scope.fireOnChange= function() {
-                    scope.$emit("searchfield::change",scope.value);
-                }
-            }
-        };
-    });
+        },
+
+        'en-us': {
+
+         'searchfieldplaceholder': 'searchfieldplaceholder fr'
+
+        }
+    }
