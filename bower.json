@@ -1,17 +1,23 @@
 {
-  "name": "xComponentWidget",
-  "version": "0.0.0",
-  "homepage": "https://github.com/phuchieuct93/xComponentWidget",
-  "authors": [
-    "phuchieuct <phuchieuct93@gmail.com>"
-  ],
-  "main": ["abc","def"],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "xComponentWidget",
+    "version": "0.0.0",
+    "homepage": "https://github.com/phuchieuct93/xComponentWidget",
+    "authors": [
+        "phuchieuct <phuchieuct93@gmail.com>"
+    ],
+    "main": ["./xComponentWidgets.js",
+        "./object-display-list/object-display-list-directive.js",
+        "./object-display-list/object-display-list.css",
+        "./search-field/search-field.css",
+        "./search-field/search-field-directive.js",
+        "./tile-list/tile-list.css",
+        "./tile-list/tile-list-directive.js"],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }
