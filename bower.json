@@ -1,0 +1,17 @@
+{
+  "name": "xComponentWidget",
+  "version": "0.0.0",
+  "homepage": "https://github.com/phuchieuct93/xComponentWidget",
+  "authors": [
+    "phuchieuct <phuchieuct93@gmail.com>"
+  ],
+  "main": ["abc","def"]
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
