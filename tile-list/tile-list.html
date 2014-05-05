@@ -1,0 +1,8 @@
+<div class="TileList">
+    <ul class="tileList">
+        <li ng-repeat="object in objects | filter:search" objectId="" selected="false" ng-click="fireOnSelect(object)">
+            <i class="icon-check-empty"></i>
+            <div ng-transclude></div>
+        </li>
+    </ul>
+</div>

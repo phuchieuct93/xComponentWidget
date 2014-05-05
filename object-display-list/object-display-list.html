@@ -1,0 +1,9 @@
+<div class="ObjectDisplayList">
+    <search-field options="options.searchfield"></search-field>
+    <ul class="list vertical-scrollable">
+        <li ng-repeat="object in objects | filter:search" objectId="" selected="false" ng-click="fireOnSelect(object)">
+            <i class="icon-check-empty"></i>
+            <div ng-transclude></div>
+        </li>
+    </ul>
+</div>
